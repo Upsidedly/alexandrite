@@ -1,6 +1,6 @@
 import { Client, ClientOptions } from "discord.js";
 
-interface AlexandriteOptions extends ClientOptions {
+type AlexandriteOptions = ClientOptions & {
     /**
      * The prefix of the bot's text commands.
      */
@@ -20,7 +20,7 @@ interface AlexandriteOptions extends ClientOptions {
      * The token of the bot. Used to login when everything has loaded.
      * Leave this blank if you want to manually login.
      */
-    token?: string,
+    token?: string | null | undefined,
 }
 
 class Alexandrite extends Client {
