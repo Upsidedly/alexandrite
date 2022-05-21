@@ -38,3 +38,5 @@ class Alexandrite extends Client {
         this.prefix = options.prefix;
     }
 }
+
+export { Alexandrite }
