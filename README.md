@@ -1,6 +1,6 @@
 # Alexandrite
 
-Alexandrite is a simple wrapper for the [discord.js library](https://npmjs.com/package/discord.js). Which makes slash commands,text commands, and event handling easier and more convenient.
+Alexandrite is a simple wrapper for the [discord.js library](https://npmjs.com/package/discord.js). Which makes slash commands, text commands, and event handling easier and more convenient.
 
 ## Installation
 
