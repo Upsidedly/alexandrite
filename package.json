@@ -1,12 +1,17 @@
 {
   "name": "alexandrite",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A wrapper for discord.js which makes text commands and slash commands easier.",
   "main": "dist/index.js",
   "scripts": {
     "test": "node ."
   },
-  "keywords": ["discord.js", "alexandrite", "discord", "handler"],
+  "keywords": [
+    "discord.js",
+    "alexandrite",
+    "discord",
+    "handler"
+  ],
   "author": "upsided",
   "license": "GPL-3.0-or-later",
   "dependencies": {
