@@ -20,7 +20,7 @@ interface AlexandriteOptions extends ClientOptions {
      * The token of the bot. Used to login when everything has loaded.
      * Leave this blank if you want to manually login.
      */
-    token: string | undefined,
+    token?: string,
 }
 
 class Alexandrite extends Client {
